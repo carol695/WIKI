@@ -18,4 +18,8 @@ Por otra parte, se desarrolló un programa que permite jugar una versión altern
 
 ## Antecedentes
 
+El código hace parte de un desarrollo realizado en la materia POOB. De esa lógica solo se hará uso del back.
+
+Inicialmente viene con problemas de sincronización para el modo multijugador, puesto que el tema de concurrencia y paralelismo no fue implementado de forma adecuada
+
 ## Necesitada
