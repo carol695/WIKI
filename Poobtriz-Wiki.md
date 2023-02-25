@@ -36,8 +36,8 @@ Inicialmente viene con problemas de sincronización para el modo multijugador, p
 
 Los problemas identificados que se pueden resolver a tener un tetris en lineal son los siguientes: 
 
-1. Accesibilidad: un Tetris en línea puede ser jugado por cualquier persona con acceso a Internet y un navegador web, lo que significa que el juego puede ser disfrutado por una audiencia mucho más amplia en comparación con una versión que solo se puede jugar en una consola o en una computadora de escritorio.
+1. Accesibilidad: un Tetris en línea debería ser jugado por cualquier persona con acceso a Internet y un navegador web, lo que significa que el juego puede ser disfrutado por una audiencia mucho más amplia.
 
-2. Interacción social: una versión en línea del Tetris puede permitir a los jugadores interactuar entre sí. Esto puede llegar a generar una experiencia social y una sensación de comunidad para los jugadores.
+2. Interacción social: una versión en línea del Tetris debería permitir a los jugadores interactuar entre sí. Esto puede llegar a generar una experiencia social y una sensación de comunidad para los jugadores.
 
-3. Variedad: una versión en línea del Tetris puede ofrecer una amplia variedad de opciones y características, como modos de juego adicionales, opciones de personalización, diferentes escenarios en cuanto a piezas, variedad de funcionalidades y gráficos mejorados. Esto puede mantener el juego fresco e interesante para los jugadores. 
+3. Variedad: una versión en línea del Tetris debería ofrecer una amplia variedad de opciones y características, como modos de juego adicionales, opciones de personalización, diferentes escenarios en cuanto a piezas, variedad de funcionalidades y gráficos mejorados. Esto puede mantener el juego fresco e interesante para los jugadores. 
