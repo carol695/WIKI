@@ -28,4 +28,6 @@ El código hace parte de un desarrollo realizado en la materia POOB. De esa lóg
 
 Inicialmente viene con problemas de sincronización para el modo multijugador, puesto que el tema de concurrencia y paralelismo no fue implementado de forma adecuada
 
-## Necesitada
+## Necesidad
+
+![image.png](/.attachments/image-8b59abe4-e7b1-45fa-8d82-38b49fc8f953.png)
