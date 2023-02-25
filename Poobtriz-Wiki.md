@@ -22,12 +22,13 @@ De igual manera, en este programa el jugador tendrá la posibilidad de  seleccio
 - Juan Pablo Fonseca
 - Santiago Cardenas Amaya
 
-## Antecedentes
+## Descripcion
+
+### Antecedentes 
 
 El código hace parte de un desarrollo realizado en la materia POOB. De esa lógica solo se hará uso del back.
 
 Inicialmente viene con problemas de sincronización para el modo multijugador, puesto que el tema de concurrencia y paralelismo no fue implementado de forma adecuada
 
-## Necesidad
 
 ![image.png](/.attachments/image-8b59abe4-e7b1-45fa-8d82-38b49fc8f953.png)
