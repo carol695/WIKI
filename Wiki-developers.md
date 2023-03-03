@@ -1,0 +1,1 @@
+[Diapositivas con el diseño de cada componente.](https://pruebacorreoescuelaingeduco-my.sharepoint.com/:p:/g/personal/juan_fonseca-c_mail_escuelaing_edu_co/Ef7zK36rXABLjVTmJsi7ZGUBHgg4iWkPwMpem7uII2DFzA?e=zTVfPO)
