@@ -41,3 +41,31 @@ Los problemas identificados que se pueden resolver a tener un tetris en lineal s
 2. Interacción social: una versión en línea del Tetris debería permitir a los jugadores interactuar entre sí. Esto puede llegar a generar una experiencia social y una sensación de comunidad para los jugadores.
 
 3. Variedad: una versión en línea del Tetris debería ofrecer una amplia variedad de opciones y características, como modos de juego adicionales, opciones de personalización, diferentes escenarios en cuanto a piezas, variedad de funcionalidades y gráficos mejorados. Esto puede mantener el juego fresco e interesante para los jugadores. 
+
+
+
+### Buffos
+Un buffo es un atributo del juego que le aparecerá a varios jugadores. Estos aparecen cada 10 segundos y se reconocen porque no tienen un color plano.
+
+Para simplificar, se considera invocador aquel que activa un buffo
+
+| Buffo          | Descripción                                                  |
+| -------------- | ------------------------------------------------------------ |
+| SlowScore| La puntuación que consigan los jugadores se verá disminuida en un 50% por 10 segundos a excepción del invocador. |
+| StopDiece      | Se detienen los bloques de los jugadores a excepción del invocador, hasta que se presione la tecla de bajar. |
+| Slow           | Los jugadores caerán el doble de lento a excepción del invocador |
+| 2x             | El jugador que lo coja bajará el doble de rápido.            |
+
+
+
+### Rebordes
+Se refiere al contorno del tetrómino. Según el color de este, la ficha se comportará de distintas maneras al momento de hacer contacto con cuadros del tablero que no permitan bajar más:
+
+| Reborde    | Color | Descripción                                                  |
+| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Classic | Negro | Borde normal. |
+| Useless | Plateado | Si se completa una línea con este bloque, la línea no desaparecerá |
+| Winner     | Dorado | Se transforman en el mejor bloque para el lugar donde se ubican. |
+| Bomb          | Rojo      | Cuando el bloque se fije se autodestruiré y destruirán los bloques que este toque |
+
+
