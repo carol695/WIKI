@@ -12,6 +12,8 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 - Juan Pablo Fonseca
 - Santiago Cardenas Amaya
 
+---------------
+
 ## Indice
 
 * [Descripción del proyecto](#Descripción-del-proyecto)
@@ -21,7 +23,7 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 
 * [Antecedentes](#Antecedentes)
 
-* [Problemas a resolver](#Problemas-a-resolver)
+* [Problema a resolver](#Problema-a-resolver)
 
 * [Diagramación](#Diagramas-del-proyecto)
 
@@ -93,7 +95,13 @@ Los problemas identificados que se pueden resolver a tener un tetris en lineal s
 
 3. Variedad: una versión en línea del Tetris debería ofrecer una amplia variedad de opciones y características, como modos de juego adicionales, opciones de personalización, diferentes escenarios en cuanto a piezas, variedad de funcionalidades y gráficos mejorados. Esto puede mantener el juego fresco e interesante para los jugadores. 
 
-##
+## Diagramas del proyecto 
+## Criterios de calidad
+## Características de la aplicación y demostración
+## Acceso proyecto
+## Tecnologías utilizadas
+## Personas desarrolladores
+## Conclusión 
 
 
 
