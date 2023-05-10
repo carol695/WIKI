@@ -1,14 +1,11 @@
 
 # :desktop_computer: POOBTRIZ
 
-
-
-
 Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programador ruso, Alexey Pajitnov. El objetivo del juego es colocar piezas de diferentes formas llamadas "tetrominos" en una matriz de juego y completar líneas horizontales sin espacios vacíos. A medida que se completan las líneas, se eliminan del juego y se otorgan puntos al jugador.
 
 ---------------
 
-## :bookmark_tabs: Indice
+## Indice
 
 * [Descripción del proyecto](#Descripción-del-proyecto)
 
@@ -89,7 +86,7 @@ Los problemas identificados que se pueden resolver a tener un tetris en lineal s
 
 3. Variedad: una versión en línea del Tetris debería ofrecer una amplia variedad de opciones y características, como modos de juego adicionales, opciones de personalización, diferentes escenarios en cuanto a piezas, variedad de funcionalidades y gráficos mejorados. Esto puede mantener el juego fresco e interesante para los jugadores. 
 
-## :chart_with_upwards_trend: Diagramas del proyecto 
+## Diagramas del proyecto 
 
 ### Caso de uso 
 
@@ -135,24 +132,35 @@ Desde el browser en internet se comunica con el FrontEnd de la aplicación, lueg
 desplegado en una app service web App y en este se encuentra un app Service plan. Para el
 desarrollo de esto, se trabajará con un resource Group. 
 
-## :bar_chart: Criterios de calidad
+## Criterios de calidad
+
+**1. Testeabilidad :** El proyecto tiene diferentes test, en el cual se pueden ejecutar facilmente y además se puedene llegar a implementar otras pruebas con el fin de que se detecte algún defecto dentro del programa. 
+
+![image](https://github.com/carol695/WIKI/assets/63822072/4f6e7f3c-e8f5-4af8-a9a5-b5a0f31918b9)
+
+**2. Escalabilidad:** El proyecto es escalable debido a que hace uso de tecnología como la computación en la nube, ya que en azure, por medio de appservices se despliega la acplicación, llegando a tener los dos tipos de escalabilidad. Tanto escalabilidad vertical, como escalabilidad horizontal. 
+
+**3. Modificabilidad:** El proyecto se encuentra diseñado por componentes, esto hace que se pueda modificar de manera individual sin afectar el funcionamiento de otros componentes. Además, cuenta con pruebas, lo que ayuda a indentificar errores en el código y faciliatr la identificación de las partes que necesitan ser modificables. 
+
+![image](https://github.com/carol695/WIKI/assets/63822072/4b9cc4b8-fb75-406b-8ff0-84a74b664901)
+
+##  Demostración
+
+##  Acceso proyecto
 
 
-## :mag_right: Demostración
+##  Tecnologías utilizadas
 
-## :bulb: Acceso proyecto
+* Git - Sistema de control de versiones
+* Java  - Entorno de desarrollo
+* Intellij Idea 
+* Angular - FrontEnd
+* Visual Studio Code - Entorno de desarrollo 
 
-P
-## :computer: Tecnologías utilizadas
-## :technologist: Personas desarrolladores
+## Personas desarrolladores
 
 - Carol Cely Rodriguez
 - Juan Pablo Fonseca
 - Santiago Cardenas Amaya
 
-## :brain: Conclusión 
-
-
-
-
-
+## Conclusión 
