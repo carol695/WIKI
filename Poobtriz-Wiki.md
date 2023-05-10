@@ -148,6 +148,7 @@ desarrollo de esto, se trabajará con un resource Group.
 
 ##  Acceso proyecto
 
+Se puede acceder al proyecto de la siguiente manera: 
 
 ##  Tecnologías utilizadas
 
@@ -164,3 +165,11 @@ desarrollo de esto, se trabajará con un resource Group.
 - Santiago Cardenas Amaya
 
 ## Conclusión 
+
+El desarrollo de este proyecto fue una experiencia muy enriquecedora para cada uno de los integrantes del grupo, ya que se pudo aprender muchas habilidades nuevas y enfrentar desafíos interesantes. En particular, el aprendizaje de Angular, esto fue muy valioso, ya que Angular es un marco de trabajo popular y ampliamente utilizado para el desarrollo de aplicaciones web.
+
+Durante el desarrollo de este proyecto, fue común enfrentarse a problemas y desafíos técnicos que  requerieron una solución creativa. Estos problemas incluían problemas con la lógica del juego, la gestión de los recursos, la interacción de los usuarios, el desempeño del juego, entre otros. Para resolver estos problemas se requirió  habilidades de resolución de problemas, pensamiento crítico y capacidad de investigación.
+
+Otro aspecto importante que se genero durante la elaboración de este prouecto fue la colaboración y el trabajo en equipo. En muchos casos, se  requirió la colaboración entre todo el equipo para lograr un resultado exitoso. Esto generó habilidades de comunicación efectiva, capacidad de trabajo en equipo y habilidades de liderazgo.
+
+En conclusión, POOBTRIZ fue una experiencia muy enriquecedora y desafiante para cada uno de nosotros. Se pudieron aprender habilidades nuevas, enfrentarse a problemas y desafíos técnicos interesantes, y mejorar habilidades de comunicación y trabajo en equipo.
