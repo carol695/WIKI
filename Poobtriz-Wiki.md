@@ -14,12 +14,14 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 
 ## Indice
 
-* [Descripción del proyecto](#Descripcion)
+* [Descripción del proyecto](#Descripción-del-proyecto)
 
     * [ Buffos](#Buffos)
     * [ Rebordes](#Rebordes)
 
 * [Antecedentes](#Antecedentes)
+
+* [Problemas a resolver](#Problemas-a-resolver)
 
 * [Diagramación](#Diagramas-del-proyecto)
 
@@ -35,7 +37,7 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 
 * [Conclusión](#Conclusión)
 
-## Descripción
+## Descripción del proyecto
 
 ![image](https://github.com/carol695/WIKI/assets/63822072/18694fd9-3bfb-42b4-914c-9e81c0a86eec)
 
