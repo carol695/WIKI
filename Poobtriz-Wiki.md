@@ -33,7 +33,7 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 
 * [Conclusión](#Conclusión)
 
-## :books: Descripción del proyecto
+## Descripción del proyecto
 
 ![image](https://github.com/carol695/WIKI/assets/63822072/18694fd9-3bfb-42b4-914c-9e81c0a86eec)
 
@@ -72,14 +72,14 @@ Se refiere al contorno del tetrómino. Según el color de este, la ficha se comp
 | Winner     | Dorado | Se transforman en el mejor bloque para el lugar donde se ubican. |
 | Bomb          | Rojo      | Cuando el bloque se fije se autodestruiré y destruirán los bloques que este toque |
 
-## :briefcase: Antecedentes 
+## Antecedentes 
 
 El código hace parte de un desarrollo realizado en la materia POOB. De esa lógica solo se hará uso del back.
 
 Inicialmente viene con problemas de sincronización para el modo multijugador, puesto que el tema de concurrencia y paralelismo no fue implementado de forma adecuada
 
 
-## :nazar_amulet: Problema a resolver 
+## Problema a resolver 
 
 Los problemas identificados que se pueden resolver a tener un tetris en lineal son los siguientes: 
 
