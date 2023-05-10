@@ -1,5 +1,5 @@
 
-# POOBTRIZ
+# :desktop_computer: POOBTRIZ
 
 
 
@@ -8,7 +8,7 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 
 ---------------
 
-## Indice
+## :bookmark_tabs: Indice
 
 * [Descripción del proyecto](#Descripción-del-proyecto)
 
@@ -23,7 +23,7 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 
 * [Criterios de calidad](#Criterios-de-calidad)
 
-* [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+* [Demostración](#Demostración)
 
 * [Acceso al proyecto](#Acceso-proyecto)
 
@@ -33,7 +33,7 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 
 * [Conclusión](#Conclusión)
 
-## Descripción del proyecto
+## :books: Descripción del proyecto
 
 ![image](https://github.com/carol695/WIKI/assets/63822072/18694fd9-3bfb-42b4-914c-9e81c0a86eec)
 
@@ -72,14 +72,14 @@ Se refiere al contorno del tetrómino. Según el color de este, la ficha se comp
 | Winner     | Dorado | Se transforman en el mejor bloque para el lugar donde se ubican. |
 | Bomb          | Rojo      | Cuando el bloque se fije se autodestruiré y destruirán los bloques que este toque |
 
-## Antecedentes 
+## :briefcase: Antecedentes 
 
 El código hace parte de un desarrollo realizado en la materia POOB. De esa lógica solo se hará uso del back.
 
 Inicialmente viene con problemas de sincronización para el modo multijugador, puesto que el tema de concurrencia y paralelismo no fue implementado de forma adecuada
 
 
-## Problema a resolver 
+## :nazar_amulet: Problema a resolver 
 
 Los problemas identificados que se pueden resolver a tener un tetris en lineal son los siguientes: 
 
@@ -89,25 +89,68 @@ Los problemas identificados que se pueden resolver a tener un tetris en lineal s
 
 3. Variedad: una versión en línea del Tetris debería ofrecer una amplia variedad de opciones y características, como modos de juego adicionales, opciones de personalización, diferentes escenarios en cuanto a piezas, variedad de funcionalidades y gráficos mejorados. Esto puede mantener el juego fresco e interesante para los jugadores. 
 
-## Diagramas del proyecto 
+## :chart_with_upwards_trend: Diagramas del proyecto 
 
 ### Caso de uso 
+
  ![Imagen1](https://github.com/carol695/WIKI/assets/63822072/aae11fb7-0d16-4d73-84c9-15e1f5857348)
+ 
 ### Diagrama de secuencia 
+
+
+![c90a3847-4519-4857-a271-04ccdbe5fed6](https://github.com/carol695/WIKI/assets/63822072/616fd90a-6877-42f8-af67-d98c4655a11f)
+
+Este diagrama representa la interacción entre el componente del lobby que permita añadir
+un usuario, obtener un lobby, y comunicarse en una sala virtual. Además, el cliente podría enviar
+mensajes al servidor, como solicitudes para unirse a otras salas. El servidor podría enviar mensajes
+a todos los clientes conectados en la sala del lobby para informarles sobre las acciones realizadas
+por otros usuarios.
+
+![image](https://github.com/carol695/WIKI/assets/63822072/63c88143-eb8e-485d-8f15-f093513bfcd4)
+
+Este diagrama representa la interacción entre el componente del lobby que permite crear un lobby,
+donde si es administrador se crea un lobby y se empieza a jugar. 
+
+*Nota:* Estos son dos ejemplos de diagramas de secuencias, sin embargo, en el portal de azure DevOps se encuentran más diagramas de este tipo en las diferentes historias de usuarios de los sprints realizados.  
+
 ### Diagrama de componentes 
+
+![Imagen2](https://github.com/carol695/WIKI/assets/63822072/bcc5b26e-5d04-4f33-8a71-f22ce2d430fa)
+
 ### Diagrama de despliegue 
-## Criterios de ![Imagen1](https://github.com/carol695/WIKI/assets/63822072/aae11fb7-0d16-4d73-84c9-15e1f5857348)
-calidad
-## Características de la aplicación y demostración
-## Acceso proyecto
-## Tecnologías utilizadas
-## Personas desarrolladores
+
+#### Despliegue de back-end
+
+![49576bd5-f6ce-4b0b-8877-13bcd99130e9](https://github.com/carol695/WIKI/assets/63822072/a72b880e-4a5e-4dc0-b86a-889dc502af29)
+
+Desde el browser en internet se comunica con el BackEnd de la aplicación, luego este es desplegado
+en una app Service y en este se encuentra un app Service plan. Para el desarrollo de esto, se trabajará
+con un resource Group
+
+#### Despliegue de Front-end
+
+![4a06db48-9eab-44de-9612-6d425b6be5a8](https://github.com/carol695/WIKI/assets/63822072/3b5d8f61-ce69-45a1-9598-01ca899282fc)
+
+Desde el browser en internet se comunica con el FrontEnd de la aplicación, luego este es
+desplegado en una app service web App y en este se encuentra un app Service plan. Para el
+desarrollo de esto, se trabajará con un resource Group. 
+
+## :bar_chart: Criterios de calidad
+
+
+## :mag_right: Demostración
+
+## :bulb: Acceso proyecto
+
+P
+## :computer: Tecnologías utilizadas
+## :technologist: Personas desarrolladores
 
 - Carol Cely Rodriguez
 - Juan Pablo Fonseca
 - Santiago Cardenas Amaya
 
-## Conclusión 
+## :brain: Conclusión 
 
 
 
