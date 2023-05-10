@@ -6,12 +6,6 @@
 
 Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programador ruso, Alexey Pajitnov. El objetivo del juego es colocar piezas de diferentes formas llamadas "tetrominos" en una matriz de juego y completar líneas horizontales sin espacios vacíos. A medida que se completan las líneas, se eliminan del juego y se otorgan puntos al jugador.
 
-## Integrantes
-
-- Carol Cely Rodriguez
-- Juan Pablo Fonseca
-- Santiago Cardenas Amaya
-
 ---------------
 
 ## Indice
@@ -96,11 +90,23 @@ Los problemas identificados que se pueden resolver a tener un tetris en lineal s
 3. Variedad: una versión en línea del Tetris debería ofrecer una amplia variedad de opciones y características, como modos de juego adicionales, opciones de personalización, diferentes escenarios en cuanto a piezas, variedad de funcionalidades y gráficos mejorados. Esto puede mantener el juego fresco e interesante para los jugadores. 
 
 ## Diagramas del proyecto 
-## Criterios de calidad
+
+### Caso de uso 
+ ![Imagen1](https://github.com/carol695/WIKI/assets/63822072/aae11fb7-0d16-4d73-84c9-15e1f5857348)
+### Diagrama de secuencia 
+### Diagrama de componentes 
+### Diagrama de despliegue 
+## Criterios de ![Imagen1](https://github.com/carol695/WIKI/assets/63822072/aae11fb7-0d16-4d73-84c9-15e1f5857348)
+calidad
 ## Características de la aplicación y demostración
 ## Acceso proyecto
 ## Tecnologías utilizadas
 ## Personas desarrolladores
+
+- Carol Cely Rodriguez
+- Juan Pablo Fonseca
+- Santiago Cardenas Amaya
+
 ## Conclusión 
 
 
