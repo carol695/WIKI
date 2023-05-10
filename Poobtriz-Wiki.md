@@ -12,15 +12,15 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
 - Juan Pablo Fonseca
 - Santiago Cardenas Amaya
 
-##Índice
+## Indice
 
-*[Descripción del proyecto](#Descripcion)
+* [Descripción del proyecto](#Descripcion)
 
-*[Antecedentes](#Antecedentes)
+* [Antecedentes](#Antecedentes)
 
-*[Diagramación](#Diagramas-del-proyecto)
+* [Diagramación](#Diagramas-del-proyecto)
 
-*[Criterios de calidad](#Criterios-de-calidad)
+* [Criterios de calidad](#Criterios-de-calidad)
 
 *[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
 
