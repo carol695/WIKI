@@ -12,19 +12,35 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
     * [ Buffos](#Buffos)
     * [ Rebordes](#Rebordes)
 
-* [Antecedentes](#Antecedentes)
+* [Marco Metodológico](#Marco-metodológico)
+ 
+    * [ Scrum](#Scrum)
+    * [ DoR](#Definition-of-ready)
+    * [ DoD](#Defintion-of-done)
+    
+* [Marco de Arquitectura](#Marco-de-arquitectura)
 
-* [Problema a resolver](#Problema-a-resolver)
+    * [ Criterios de calidad](#Criterios-de-calidad)
+    * [ Modelo de arquitectura cloud](#Modelo-de-arquitectura-cloud)
+    * [ Diagrama de componentes](#Diagrama-de-componentes)
+    * [ Diagrama de despliegue](#Diagrama-de-despliegue)
+    * [ Diagrama de secuencia](#Diagrama-de-secuencia)
 
-* [Diagramación](#Diagramas-del-proyecto)
+* [Bitácora](#Bitácora)
 
-* [Criterios de calidad](#Criterios-de-calidad)
+   * [Sprint Concept](#Sprint-concept)
 
-* [Demostración](#Demostración)
+* [Sprint 1](#Sprint-1)
 
-* [Acceso al proyecto](#Acceso-proyecto)
+   * [Sprint Planning](#Sprint-planning)
+   * [Sprint Review](#Sprint-review)
+   * [Sprint Retrospective ](#Sprint-retrospective)
 
-* [Tecnologías utilizadas](#Tecnologías-utilizadas)
+* [Sprint 2](#Sprint-2)
+
+   * [Sprint Planning](#Sprint-planning)
+   * [Sprint Review](#Sprint-review)
+   * [Sprint Retrospective ](#Sprint-retrospective)
 
 * [Personas-Desarrolladores del Proyecto](#Personas-desarrolladores)
 
@@ -69,31 +85,53 @@ Se refiere al contorno del tetrómino. Según el color de este, la ficha se comp
 | Winner     | Dorado | Se transforman en el mejor bloque para el lugar donde se ubican. |
 | Bomb          | Rojo      | Cuando el bloque se fije se autodestruiré y destruirán los bloques que este toque |
 
-## Antecedentes 
+## Marco metodológico 
 
-El código hace parte de un desarrollo realizado en la materia POOB. De esa lógica solo se hará uso del back.
+### Scrum 
+### Definition of ready 
+### Definition of done 
 
-Inicialmente viene con problemas de sincronización para el modo multijugador, puesto que el tema de concurrencia y paralelismo no fue implementado de forma adecuada
+## Marco de arquitectura 
 
+### Criterios de calidad
 
-## Problema a resolver 
+**1. Testeabilidad :** El proyecto tiene diferentes test, en el cual se pueden ejecutar facilmente y además se puedene llegar a implementar otras pruebas con el fin de que se detecte algún defecto dentro del programa. 
 
-Los problemas identificados que se pueden resolver a tener un tetris en lineal son los siguientes: 
+![image](https://github.com/carol695/WIKI/assets/63822072/4f6e7f3c-e8f5-4af8-a9a5-b5a0f31918b9)
 
-1. Accesibilidad: un Tetris en línea debería ser jugado por cualquier persona con acceso a Internet y un navegador web, lo que significa que el juego puede ser disfrutado por una audiencia mucho más amplia.
+**2. Escalabilidad:** El proyecto es escalable debido a que hace uso de tecnología como la computación en la nube, ya que en azure, por medio de appservices se despliega la acplicación, llegando a tener los dos tipos de escalabilidad. Tanto escalabilidad vertical, como escalabilidad horizontal. 
 
-2. Interacción social: una versión en línea del Tetris debería permitir a los jugadores interactuar entre sí. Esto puede llegar a generar una experiencia social y una sensación de comunidad para los jugadores.
+**3. Modificabilidad:** El proyecto se encuentra diseñado por componentes, esto hace que se pueda modificar de manera individual sin afectar el funcionamiento de otros componentes. Además, cuenta con pruebas, lo que ayuda a indentificar errores en el código y faciliatr la identificación de las partes que necesitan ser modificables. 
 
-3. Variedad: una versión en línea del Tetris debería ofrecer una amplia variedad de opciones y características, como modos de juego adicionales, opciones de personalización, diferentes escenarios en cuanto a piezas, variedad de funcionalidades y gráficos mejorados. Esto puede mantener el juego fresco e interesante para los jugadores. 
+![image](https://github.com/carol695/WIKI/assets/63822072/4b9cc4b8-fb75-406b-8ff0-84a74b664901)
 
-## Diagramas del proyecto 
+### Modelo de arquitectura cloud 
 
-### Caso de uso 
+#### Backend 
 
- ![Imagen1](https://github.com/carol695/WIKI/assets/63822072/aae11fb7-0d16-4d73-84c9-15e1f5857348)
- 
+![49576bd5-f6ce-4b0b-8877-13bcd99130e9](https://github.com/carol695/WIKI/assets/63822072/a72b880e-4a5e-4dc0-b86a-889dc502af29)
+
+Desde el browser en internet se comunica con el BackEnd de la aplicación, luego este es desplegado
+en una app Service y en este se encuentra un app Service plan. Para el desarrollo de esto, se trabajará
+con un resource Group
+
+#### Front-end
+
+![4a06db48-9eab-44de-9612-6d425b6be5a8](https://github.com/carol695/WIKI/assets/63822072/3b5d8f61-ce69-45a1-9598-01ca899282fc)
+
+Desde el browser en internet se comunica con el FrontEnd de la aplicación, luego este es
+desplegado en una app service web App y en este se encuentra un app Service plan. Para el
+desarrollo de esto, se trabajará con un resource Group. 
+
+### Diagrama de componentes 
+
+![Imagen2](https://github.com/carol695/WIKI/assets/63822072/bcc5b26e-5d04-4f33-8a71-f22ce2d430fa)
+
+### Diagrama de despliegue
+
+![image](https://github.com/carol695/WIKI/assets/63822072/2e22bc5b-9589-4b66-b08f-54a4d263e377)
+
 ### Diagrama de secuencia 
-
 
 ![c90a3847-4519-4857-a271-04ccdbe5fed6](https://github.com/carol695/WIKI/assets/63822072/616fd90a-6877-42f8-af67-d98c4655a11f)
 
@@ -108,61 +146,36 @@ por otros usuarios.
 Este diagrama representa la interacción entre el componente del lobby que permite crear un lobby,
 donde si es administrador se crea un lobby y se empieza a jugar. 
 
-*Nota:* Estos son dos ejemplos de diagramas de secuencias, sin embargo, en el portal de azure DevOps se encuentran más diagramas de este tipo en las diferentes historias de usuarios de los sprints realizados.  
+*Nota:* Estos son dos ejemplos de diagramas de secuencias, sin embargo, en el portal de azure DevOps se encuentran más diagramas de este tipo en las diferentes historias de usuarios de los sprints realizados. 
 
-### Diagrama de componentes 
+### Caso de uso 
 
-![Imagen2](https://github.com/carol695/WIKI/assets/63822072/bcc5b26e-5d04-4f33-8a71-f22ce2d430fa)
+ ![Imagen1](https://github.com/carol695/WIKI/assets/63822072/aae11fb7-0d16-4d73-84c9-15e1f5857348)
 
-### Diagrama de despliegue 
+## Bitácora 
 
-#### Despliegue de back-end
+### Sprint Concept 
 
-![49576bd5-f6ce-4b0b-8877-13bcd99130e9](https://github.com/carol695/WIKI/assets/63822072/a72b880e-4a5e-4dc0-b86a-889dc502af29)
 
-Desde el browser en internet se comunica con el BackEnd de la aplicación, luego este es desplegado
-en una app Service y en este se encuentra un app Service plan. Para el desarrollo de esto, se trabajará
-con un resource Group
+### Sprint 1
 
-#### Despliegue de Front-end
+#### Sprint planning 
+#### Sprint review
+#### Sprint retrospective
 
-![4a06db48-9eab-44de-9612-6d425b6be5a8](https://github.com/carol695/WIKI/assets/63822072/3b5d8f61-ce69-45a1-9598-01ca899282fc)
 
-Desde el browser en internet se comunica con el FrontEnd de la aplicación, luego este es
-desplegado en una app service web App y en este se encuentra un app Service plan. Para el
-desarrollo de esto, se trabajará con un resource Group. 
+### Sprint 2
 
-## Criterios de calidad
+#### Sprint planning 
+#### Sprint review
+#### Sprint retrospective
 
-**1. Testeabilidad :** El proyecto tiene diferentes test, en el cual se pueden ejecutar facilmente y además se puedene llegar a implementar otras pruebas con el fin de que se detecte algún defecto dentro del programa. 
-
-![image](https://github.com/carol695/WIKI/assets/63822072/4f6e7f3c-e8f5-4af8-a9a5-b5a0f31918b9)
-
-**2. Escalabilidad:** El proyecto es escalable debido a que hace uso de tecnología como la computación en la nube, ya que en azure, por medio de appservices se despliega la acplicación, llegando a tener los dos tipos de escalabilidad. Tanto escalabilidad vertical, como escalabilidad horizontal. 
-
-**3. Modificabilidad:** El proyecto se encuentra diseñado por componentes, esto hace que se pueda modificar de manera individual sin afectar el funcionamiento de otros componentes. Además, cuenta con pruebas, lo que ayuda a indentificar errores en el código y faciliatr la identificación de las partes que necesitan ser modificables. 
-
-![image](https://github.com/carol695/WIKI/assets/63822072/4b9cc4b8-fb75-406b-8ff0-84a74b664901)
-
-##  Demostración
-
-##  Acceso proyecto
-
-Se puede acceder al proyecto de la siguiente manera: 
-
-##  Tecnologías utilizadas
-
-* Git - Sistema de control de versiones
-* Java  - Entorno de desarrollo
-* Intellij Idea 
-* Angular - FrontEnd
-* Visual Studio Code - Entorno de desarrollo 
 
 ## Personas desarrolladores
 
-- Carol Cely Rodriguez
 - Juan Pablo Fonseca
 - Santiago Cardenas Amaya
+- Carol Cely Rodriguez
 
 ## Conclusión 
 
