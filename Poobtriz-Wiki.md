@@ -88,7 +88,38 @@ Se refiere al contorno del tetrómino. Según el color de este, la ficha se comp
 ## Marco metodológico 
 
 ### Scrum 
+Se implementó Scrum en el proyecto de la siguiente manera: 
+
+1. Definición del equipo: Se seleccionó el equipo en cual se encargó de desarrollar el proyecto. 
+2. Se definión un product Owner: El producto Owner seleccionado fue Juan Pablo Fonseca, responsable de definir los objetviso del proyecto y de crear una lista priorizar todas las caracterisitcas, funcionalidades y requisitos del proyecto. 
+3. Se planificaron los sprints: Para este caso, se contó con un sprint concept y dos sprint. 
+4. Realización de revisiones: Al finalizar cada sprint, se realizó una revisión del sprint, donde cada persona presentó el trabajo que había realizado y completado al product owner, se recibieron comentarios y se planeó el siguienye sprint. 
+5. Realización de retrospectivas: Al final de cada spritn, también se realizó una restrospectiva, donde el equipo reflexionó sobre el sprint, se miraron las tareas faltantes y se discutió las formas de mejorar el proceso de trabajo. 
+
 ### Definition of ready 
+
+- Historias de usuario bien definidas
+- Cristerios de aceptación de historias de usuario definida.
+- Identificación de la persona que aceptará las diferentes historias de usuario 
+
+*Independent* 
+
+- La historia de usuario se puede desarrollar independientemente de otras historias. 
+
+*Negotiable*
+
+- La historia de usuarió se discutió con el equipo y se entendió lo que se debía hacer 
+- Se definieron los criterios de aceptación 
+
+*Valuable*
+
+- El equipo entiende el por qué se hace esto y el impacto esperado.
+
+*Small*
+
+- Las historias de usuario son pequeñas
+
+
 ### Definition of done 
 
 ## Marco de arquitectura 
