@@ -213,7 +213,14 @@ donde si es administrador se crea un lobby y se empieza a jugar.
 ### Sprint 1
 
 #### Sprint planning 
+
 #### Sprint review
+
+![Picture1](https://github.com/carol695/WIKI/assets/63822072/00ef2705-2b92-449d-873f-d977f7763f8d)
+
+![Picture2](https://github.com/carol695/WIKI/assets/63822072/00072d65-de26-4274-95da-b4213fbd4b4c)
+
+
 #### Sprint retrospective
 
 
