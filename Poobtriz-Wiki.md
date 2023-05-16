@@ -231,7 +231,7 @@ Las historias definidas para el sprint 1 fueron:
 
 #### Sprint review
 
-**Incremeto**
+**Incremento**
 
 ![Picture1](https://github.com/carol695/WIKI/assets/63822072/00ef2705-2b92-449d-873f-d977f7763f8d)
 
@@ -246,7 +246,24 @@ Las historias definidas para el sprint 1 fueron:
 ### Sprint 2
 
 #### Sprint planning 
+
+Durante el Sprint 2, el equipo también llevó a cabo una reunión de preparación en la que se generaron las historias de usuario y se definieron las tareas correspondientes a cada una. Durante esta reunión, cada miembro del equipo asumió compromisos individuales para completar las diversas historias de usuario.
+
+Las historias definidas para el sprint 2 fueron: 
+
+**HISTORIAS DE USUARIOS SPRINT 2**
+
+![image](https://github.com/carol695/WIKI/assets/63822072/3ec582e6-bf15-4c17-babe-b86b39536a88)
+
+*Tareas de cada historia de usuario*
+
+![image](https://github.com/carol695/WIKI/assets/63822072/3e7a313e-1900-40a3-bed7-232a2d9cef24)
+
+![image](https://github.com/carol695/WIKI/assets/63822072/65a016a0-3f71-4fa7-9079-76c608f45502)
+
 #### Sprint review
+
+
 #### Sprint retrospective
 
 
