@@ -214,7 +214,24 @@ donde si es administrador se crea un lobby y se empieza a jugar.
 
 #### Sprint planning 
 
+Durante el Sprint 1, el equipo llevó a cabo una reunión de preparación en la que se generaron las historias de usuario y se definieron las tareas correspondientes a cada una. Durante esta reunión, cada miembro del equipo asumió compromisos individuales para completar las diversas historias de usuario.
+
+Las historias definidas para el sprint 1 fueron: 
+
+**HISTORIAS DE USUARIOS SPRINT 1**
+
+![image](https://github.com/carol695/WIKI/assets/63822072/eb066ffb-6eb0-4740-9357-76378237203f)
+
+*Tareas de cada historia de usuario*
+
+![image](https://github.com/carol695/WIKI/assets/63822072/87fee513-9eb8-4cfa-9d2e-af4487902e71)
+
+![image](https://github.com/carol695/WIKI/assets/63822072/b736ff6a-aa06-4e91-b66f-a73f6b69ce56)
+
+
 #### Sprint review
+
+**Incremeto**
 
 ![Picture1](https://github.com/carol695/WIKI/assets/63822072/00ef2705-2b92-449d-873f-d977f7763f8d)
 
@@ -222,6 +239,8 @@ donde si es administrador se crea un lobby y se empieza a jugar.
 
 
 #### Sprint retrospective
+
+
 
 
 ### Sprint 2
