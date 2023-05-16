@@ -198,19 +198,17 @@ donde si es administrador se crea un lobby y se empieza a jugar.
 
 ## Bitácora 
 
-### Sprint Concept (arreglar)
+### Sprint Concept 
 
-Duración del Sprint: Se decide que cada sprint tendrá una duración de dos semanas.
+**Duración del Sprint:** Se decide que cada sprint tendrá una duración de seis semanas.
 
-Planificación del Sprint: Al inicio de cada sprint, el equipo se reúne para realizar una reunión de planificación del sprint. Durante esta reunión, el Product Owner presenta los elementos del Product Backlog prioritarios y el equipo de desarrollo selecciona las tareas que se compromete a completar durante el sprint.
+**Planificación del Sprint:** Al inicio de cada sprint, el equipo se reunió para realizar una reunión de planificación del sprint. Durante esta reunión, el Product Owner presentó los elementos e historias de usuarios que se iban a desarrollar durante cada sprint, el equipo de seleccionó las tareas que se comprometián completar durante el sprint.
 
-Desarrollo del Sprint: Durante el sprint, el equipo de desarrollo trabaja en las tareas seleccionadas del Sprint Backlog. Se siguen las prácticas de desarrollo ágil, como programación en parejas, pruebas automatizadas y revisión de código, para asegurar la calidad del trabajo realizado.
+**Desarrollo del Sprint:** Durante el sprint, el equipo trabajó en las tareas seleccionadas del Sprint. Se intentó llevar a cabo  las prácticas de desarrollo ágil, como el desarrollo de  pruebas automatizadas y revisión de código.
 
-Reuniones diarias de Scrum: Se llevan a cabo reuniones diarias de Scrum, generalmente llamadas Daily Stand-ups. En estas reuniones breves, cada miembro del equipo comparte lo que hizo el día anterior, lo que planea hacer ese día y cualquier obstáculo o problema que pueda afectar su progreso. El objetivo es mantener a todos los miembros del equipo al tanto del progreso y coordinar las actividades.
+**Revisión del Sprint:** Al finalizar cada sprint, se realizó una reunión de revisión del sprint, donde el equipo presentaó el incremento funcional desarrollado durante el sprint al Product Owner. Durante estas reuniones, se mostraron lo que cada persona trabajó y se recibieron comentarios y sugerencias para futuras mejoras.
 
-Revisión del Sprint: Al finalizar cada sprint, se realiza una reunión de revisión del sprint, donde el equipo presenta el incremento funcional desarrollado durante el sprint al Product Owner y a otros interesados. Durante esta reunión, se pueden demostrar las funcionalidades implementadas y recibir comentarios y sugerencias para futuras mejoras.
-
-Retrospectiva del Sprint: Después de la reunión de revisión del sprint, el equipo realiza una retrospectiva del sprint. Durante esta reunión, el equipo reflexiona sobre el sprint que acaba de terminar y discute qué funcionó bien, qué se puede mejorar y qué acciones tomar en el siguiente sprint para aumentar la eficiencia y la calidad del trabajo.
+**Retrospectiva del Sprint:** Después de la reunión de revisión del sprint, el equipo realizó una retrospectiva del sprint. Durante esta reunión, el equipo reflexionó sobre el sprint que acaba de terminar y discutió qué funcionó bien, qué se puede mejorar y qué acciones tomar en el siguiente sprint para aumentar la eficiencia y la calidad del trabajo.
 
 ### Sprint 1
 
