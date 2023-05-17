@@ -42,7 +42,7 @@ Tetris es un juego de puzzle muy popular que fue creado en 1984 por el programad
    * [Sprint Review](#Sprint-review)
    * [Sprint Retrospective ](#Sprint-retrospective)
 
-* [Personas-Desarrolladores del Proyecto](#Personas-desarrolladores)
+* [Personas](#Personas-desarrolladores)
 
 * [Conclusión](#Conclusión)
 
