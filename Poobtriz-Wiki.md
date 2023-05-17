@@ -263,8 +263,15 @@ Las historias definidas para el sprint 2 fueron:
 
 #### Sprint review
 
+*Incremento*
+
+![image](https://github.com/carol695/WIKI/assets/63822072/b7c81665-4820-43fb-a168-a764a98afe83)
+
+![image](https://github.com/carol695/WIKI/assets/63822072/85adb45c-0e56-4744-b810-e58218f247ba)
 
 #### Sprint retrospective
+
+
 
 
 ## Personas desarrolladores
